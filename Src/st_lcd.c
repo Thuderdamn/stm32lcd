@@ -2,7 +2,7 @@
  * st_lcd.c
  *
  *  Created on: Dec 7, 2024
- *      Author: dell
+ *      Author: Thunderdamn
  */
 #include "main.h"
 #include "lcd.h"
