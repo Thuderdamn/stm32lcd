@@ -68,8 +68,8 @@ lcd_write_data(*s++);
 void lcd_goto( int row)
 {
 uint16_t address;
-if(row == 0)address = 0;
-if(row == 1)address = 0x0100;
+if(row == 0)address = 0x0080;
+if(row == 1)address = 0x00C0;
 
 lcd_write_cmd(address);
 }
@@ -101,4 +101,5 @@ void lcd_init(void)
 	    HAL_Delay(5);          // Wait for the command to be processed
 
 	}
+
 
